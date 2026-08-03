@@ -107,7 +107,7 @@
         <Hr/>
         <div class="flex flex-wrap justify-center gap-10">
             <Img
-                src="src/assets/photo.png"
+                src="/photo.png"
                 alt="A photo of myself"
                 class="h-64 w-64 sm:h-96 sm:w-96 rounded-full"
             />

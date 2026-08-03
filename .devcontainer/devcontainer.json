@@ -1,4 +1,4 @@
 {
   "image": "dhi.io/node:26-alpine3.23-dev",
-  "forwardPorts": [5173]
+  "forwardPorts": [4173, 5173]
 }
