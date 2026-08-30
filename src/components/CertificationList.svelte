@@ -4,7 +4,7 @@
     let { certifications } = $props();
 </script>
 
-<div class="flex flex-col gap-6">
+<div>
     {#each certifications as certification}
         <Certification {...certification}></Certification>
     {/each}

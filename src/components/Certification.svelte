@@ -12,13 +12,11 @@
 	const image = platformToImage[platform];
 </script>
 
-<div class="flex gap-6 max-w-2xl">
+<div class="flex gap-6 max-w-2xl mb-6">
     <Img class="rounded-lg w-15 h-15 sm:w-20 sm:h-20" src={image}></Img>
-    <div class="flex flex-col justify-between">
-        <div>
-            <Heading tag="h5">{name}</Heading>
-            <Heading tag="h5"><Secondary>{platform}</Secondary></Heading>
-        </div>
+    <div>
+        <Heading tag="h5">{name}</Heading>
+        <Heading tag="h5" class="mb-4"><Secondary>{platform}</Secondary></Heading>
         <P>Emitido em: {date}</P>
     </div>
 </div>
