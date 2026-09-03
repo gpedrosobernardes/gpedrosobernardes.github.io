@@ -132,9 +132,9 @@
     <Section title="Sobre mim" icon={UserCircleSolid}>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <Img
-                src="/photo.png"
+                src="/photo.webp"
                 alt="A photo of myself"
-                class="h-64 w-64 sm:h-80 sm:w-80 rounded-full m-auto"
+                class="h-64 w-64 sm:h-80 sm:w-80 rounded-full m-auto "
             />
             <div
                 class="max-w-xl m-auto"
