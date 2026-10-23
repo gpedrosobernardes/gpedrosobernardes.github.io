@@ -39,7 +39,10 @@
         "Next.js",
         "Django",
         "Selenium",
-        "SvelteKit"
+        "SvelteKit",
+        "Elasticsearch",
+        "DuckDB",
+        "Zod"
     ];
 
     const projects = [
